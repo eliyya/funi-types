@@ -1,0 +1,14 @@
+{
+  "name": "funi-types",
+  "version": "0.1.0",
+  "description": "funi api typescript definitions",
+  "main": "mod.js",
+  "types": "mod.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["funi", "fragmented", "universe", "types", "typescript", "definitions"],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
