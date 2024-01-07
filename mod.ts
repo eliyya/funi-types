@@ -1,3 +1,5 @@
+export type unixtime = number;
+
 export type ApiUser = {
   id: number;
   username: string;
@@ -7,14 +9,14 @@ export type ApiUser = {
 
 export type ApiRegister = {
   id: number;
-  created_at: Date;
+  created_at: unixtime;
   user_id: ApiUser["id"];
   email: string;
 };
 
 export type ApiGroup = {
   id: number;
-  created_at: Date;
+  created_at: unixtime;
   name: string;
   owner_id: ApiUser["id"];
   member_ids: ApiUser["id"][];
@@ -23,7 +25,7 @@ export type ApiGroup = {
 
 export type ApiClass = {
   id: number;
-  created_at: Date;
+  created_at: unixtime;
   name: string;
   subject: string;
   teacher_id: number;

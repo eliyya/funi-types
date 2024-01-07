@@ -1,6 +1,6 @@
 {
   "name": "funi-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "funi api typescript definitions",
   "main": "mod.js",
   "types": "mod.ts",
@@ -10,5 +10,8 @@
   "keywords": ["funi", "fragmented", "universe", "types", "typescript", "definitions"],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
