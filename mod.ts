@@ -3,7 +3,7 @@ export type unixtime = number;
 export type ApiUser = {
   id: number;
   username: string;
-  displayName: string | null;
+  displayname: string | null;
   avatar: string | null;
 };
 
