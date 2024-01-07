@@ -10,7 +10,7 @@ export type ApiUser = {
 export type ApiRegister = {
   id: number;
   created_at: unixtime;
-  user_id: ApiUser["id"];
+  user_id: ApiUser["id"] | null;
   email: string;
 };
 
