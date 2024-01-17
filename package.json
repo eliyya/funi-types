@@ -20,8 +20,5 @@
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  },
-  "devDependencies": {
-    "typescript": "5.3.3"
   }
 }
