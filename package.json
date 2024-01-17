@@ -7,11 +7,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["funi", "fragmented", "universe", "types", "typescript", "definitions"],
+  "keywords": [
+    "funi",
+    "fragmented",
+    "universe",
+    "types",
+    "typescript",
+    "definitions"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
   }
 }
